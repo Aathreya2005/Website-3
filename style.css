@@ -1,0 +1,63 @@
+/*cascading style sheet*/
+body{
+    background:rgb(15,120,15);
+    font-family: "forte"; 
+    font-size: 22px;
+    align-items: center;
+    background-image: url("xbox1.jpg");
+    background-position: center;
+    background-position: top;
+    
+
+}
+marquee{
+    color:rgb(38, 15, 120);
+    font-size: 300%;
+}
+.item{
+    border:double;
+    border-top-color:blue ;
+    border-left-color:red ;
+    border-right-color:#00FF00 ;
+    border-bottom-color:yellow ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+h1,h2,h3,h4,h5{
+    color:#000000;
+    font-family:Times New Roman;
+    text-align: center;
+    font-size:50px;
+}
+p{
+    color:#000000;
+    font-family:forte;
+    text-align: center;
+}
+.link{
+    text-align: center;
+    padding-top:50%;
+    padding-left:43%;
+}
+.item{
+    opacity:0.75;
+}
+.item:hover {
+    opacity:1;
+    width:25%;
+
+}
+p:hover{
+    color:red;
+}
+.xboxweb{
+    padding-left: 42.5%;
+}
+.xboxweb:link{
+    color:red;
+}
+.xboxweb:visited{
+    color:orange;
+}
